@@ -1,0 +1,34 @@
+html
+{
+    background-image: url(pics/Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body
+{
+    text-align: justify;
+    font: italic;
+    opacity: 0.9;
+}
+table
+{
+    border: #000000;
+    background-color: #E6E6E6;
+    color: #000000;
+}
+.Class1
+{
+    background-color: transparent;
+    color: #F0C000;
+}
+.Class2
+{
+    background-color: #999999;
+    color: #FFFFFF;
+}
+.Class3
+{
+    color: #0066FF;
+}
+

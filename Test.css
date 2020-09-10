@@ -1,0 +1,81 @@
+{
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 2%;
+    border: 1% solid #ccc;
+    border-radius: 5%;
+    resize: vertical;
+}
+input[type=email], select, textarea
+{
+    width: 90%;
+    padding: 2%;
+    border: 1% solid #ccc;
+    border-radius: 5%;
+    resize: vertical;
+}
+input[type=number], select, textarea
+{
+    width: 90%;
+    padding: 2%;
+    border: 1% solid #ccc;
+    border-radius: 5%;
+    resize: vertical;
+ }
+
+label {
+    padding: 5% 5% 5% 0;
+    display: inline-block;
+}
+
+input[type=submit]
+{
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 5% 10%;
+    border: none;
+    border-radius: 2%;
+    cursor: pointer;
+    float: left;
+}
+
+input[type=submit]:hover
+{
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5%;
+    background-color: #f2f2f2;
+    padding: 10%;
+}
+
+.col-25 {
+    float: left;
+    width: 5%;
+    margin-top: 6%;
+}
+
+.col-75 {
+    float: left;
+    width: 25%;
+    margin-top: 6%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 100%) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
